@@ -35,15 +35,14 @@ My work directly contributed to solving the core technical problem. The pipeline
 The "before-and-after" plots below show the raw GPS data (blue) vs. the final, filtered output from my Kalman Filter (green/orange).
 
 **This is the final, high-value result:**
-*<img width="1099" height="207" alt="image" src="https://github.com/user-attachments/assets/767eb7eb-cc1b-41b0-9250-21232ea247aa" />
-*
+*<img width="1099" height="207" alt="image" src="https://github.com/user-attachments/assets/767eb7eb-cc1b-41b0-9250-21232ea247aa" />*
 
 **Example 1: Position (X vs. Y)**
-<img width="419" height="396" alt="image" src="https://github.com/user-attachments/assets/9c60be3f-a0b6-4f81-b63a-7d3e19b7e959" />
+*<img width="419" height="396" alt="image" src="https://github.com/user-attachments/assets/9c60be3f-a0b6-4f81-b63a-7d3e19b7e959" />*
 
 
 **Example 2: Velocity & Position (per axis)**
-<img width="408" height="404" alt="image" src="https://github.com/user-attachments/assets/23788e6f-e416-4717-a0f0-402f8e91564d" />
+*<img width="408" height="404" alt="image" src="https://github.com/user-attachments/assets/23788e6f-e416-4717-a0f0-402f8e91564d" />*
 
 
 These graphs clearly show how the filter accurately estimates the true path, smoothing out the noise and providing the reliable data the product needed to function.
