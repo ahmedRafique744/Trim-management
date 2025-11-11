@@ -13,7 +13,9 @@ The company was developing a "Trim Management System" to help ships estimate the
 The product relied on data from IMU (Gyroscope, Accelerometer) and GPS sensors. [cite_start]However, the raw sensor data was extremely noisy, with "large data errors in all three axes"[cite: 60]. This made high-accuracy positioning impossible.
 
 **This is what the raw, unusable data looked like:**
-*<img width="1134" height="424" alt="image" src="https://github.com/user-attachments/assets/78422ae4-7e2c-464e-9105-42871ffdacaa" />*
+
+*<img width="1120" height="213" alt="image" src="https://github.com/user-attachments/assets/6363a687-b321-4768-ab12-291747cf1356" />
+*
 
 ## 2. My Solution: A Multi-Stage Processing Pipeline
 
@@ -33,7 +35,8 @@ My work directly contributed to solving the core technical problem. The pipeline
 The "before-and-after" plots below show the raw GPS data (blue) vs. the final, filtered output from my Kalman Filter (green/orange).
 
 **This is the final, high-value result:**
-*(Here, you MUST insert your screenshots from Page 11 or 12)*
+*<img width="1099" height="207" alt="image" src="https://github.com/user-attachments/assets/767eb7eb-cc1b-41b0-9250-21232ea247aa" />
+*
 
 **Example 1: Position (X vs. Y)**
 ``
