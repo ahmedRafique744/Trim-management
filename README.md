@@ -10,7 +10,7 @@ The goal of this project was to solve a core R&D problem: processing noisy senso
 
 The company was developing a "Trim Management System" to help ships estimate their position and orientation, with the goal of optimizing fuel usage and improving safety.
 
-The product relied on data from IMU (Gyroscope, Accelerometer) and GPS sensors. [cite_start]However, the raw sensor data was extremely noisy, with "large data errors in all three axes"[cite: 60]. This made high-accuracy positioning impossible.
+The product relied on data from IMU (Gyroscope, Accelerometer) and GPS sensors. However, the raw sensor data was extremely noisy, with "large data errors in all three axes". This made high-accuracy positioning impossible.
 
 **This is what the raw, unusable data looked like:**
 
@@ -26,7 +26,7 @@ My workflow involved four key steps:
 1.  **Time Alignment & Signal Processing:** Implemented resampling and decimation (using `scipy.signal`) to align the different sensor data streams and reduce data spikes caused by measurement errors.
 2.  **Frame of Reference Rotation:** Wrote functions to rotate data from the local IMU sensor frame to the Earth's (NED) frame. This involved implementing **quaternion mathematics** to apply the correct rotation matrices.
 3.  **State Estimation (Kalman Filter):** Optimized a standard Kalman Filter to work with our specific data types (position/velocity vectors from GPS). This provided an initial accurate prediction of the ship's states.
-4.  **High-Accuracy Filtering (Unscented Kalman Filter):** To achieve the highest accuracy possible, I was tasked with utilizing a more advanced **Unscented Kalman Filter (UKF)**. This more computationally advanced filter was able to "fairly accurate[ly]... predict... trailer positions using noisy GPS measurements".
+4.  **High-Accuracy Filtering (Unscented Kalman Filter):** To achieve the highest accuracy possible, I was tasked with utilizing a more advanced **Unscented Kalman Filter (UKF)**. This more computationally advanced filter was able to accurately predict trailer positions using noisy GPS measurements".
 
 ## 3. The Results: Creating Confidence from Chaos
 
