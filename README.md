@@ -14,7 +14,7 @@ The product relied on data from IMU (Gyroscope, Accelerometer) and GPS sensors. 
 
 **This is what the raw, unusable data looked like:**
 
-*<img width="1120" height="213" alt="image" src="https://github.com/user-attachments/assets/6363a687-b321-4768-ab12-291747cf1356" />
+* <img width="1099" height="207" alt="image" src="https://github.com/user-attachments/assets/767eb7eb-cc1b-41b0-9250-21232ea247aa" />
 *
 
 ## 2. My Solution: A Multi-Stage Processing Pipeline
@@ -35,7 +35,7 @@ My work directly contributed to solving the core technical problem. The pipeline
 The "before-and-after" plots below show the raw GPS data (blue) vs. the final, filtered output from my Kalman Filter (green/orange).
 
 **This is the final, high-value result:**
-*<img width="1099" height="207" alt="image" src="https://github.com/user-attachments/assets/767eb7eb-cc1b-41b0-9250-21232ea247aa" />*
+*<img width="1120" height="213" alt="image" src="https://github.com/user-attachments/assets/6363a687-b321-4768-ab12-291747cf1356" />*
 
 **Example 1: Position (X vs. Y)**
 *<img width="419" height="396" alt="image" src="https://github.com/user-attachments/assets/9c60be3f-a0b6-4f81-b63a-7d3e19b7e959" />*
